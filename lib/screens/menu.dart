@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:football_news/widgets/left_drawer.dart';
 import 'package:football_news/widgets/news_card.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -33,7 +32,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       // Body halaman dengan padding di sekelilingnya.
-      drawer: LeftDrawer(),
+   
 
 
       body: Padding(
